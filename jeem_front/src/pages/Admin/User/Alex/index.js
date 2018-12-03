@@ -12,5 +12,4 @@ const mapDispatchToProps = dispatch => ({
   InputOnChange: () => console.log('Value is changed'),
 });
 
-
 export default connect(mapStateToProps, mapDispatchToProps)(LAP)

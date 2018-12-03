@@ -6,6 +6,7 @@ import {
 class Title extends React.Component {
   constructor(...args) {
     super(...args);
+    console.log('props: ', ...args);
     this.state = { color: 'red', inputValue: 1 };
     this.buttOnClick = this.buttOnClick.bind(this);
     this.inputNumberOnchange = this.inputNumberOnchange.bind(this);

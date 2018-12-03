@@ -8,6 +8,7 @@ import {
 import './BasicLayout.less'
 import routes from '../utils/MenuConfig'
 
+
 const {
   Header, Content, Footer, Sider,
 } = Layout;
